@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body,
+button {
+  text-transform: none !important;
+}
+
+button {
+}
