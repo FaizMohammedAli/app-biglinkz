@@ -2,6 +2,7 @@ import { Toolbar } from "@mui/material";
 import React from "react";
 import {
   createBrowserRouter,
+  createHashRouter,
   Navigate,
   RouterProvider,
 } from "react-router-dom";
@@ -26,7 +27,7 @@ import { BusinessPayment } from "../containers/Payments/BusinessPayment";
 import { InfluencerPayment } from "../containers/Payments/InfluencerPayment";
 import { Password } from "../containers/Payments/Password";
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
   {
     path: "/",
     element: <HomeContainer />,
