@@ -1,13 +1,9 @@
 {
-  "files": {
-    "main.css": "/app-biglinkz/static/css/main.0d1e8a44.css",
-    "main.js": "/app-biglinkz/static/js/main.71e31a58.js",
-    "index.html": "/app-biglinkz/index.html",
-    "main.0d1e8a44.css.map": "/app-biglinkz/static/css/main.0d1e8a44.css.map",
-    "main.71e31a58.js.map": "/app-biglinkz/static/js/main.71e31a58.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.0d1e8a44.css",
-    "static/js/main.71e31a58.js"
-  ]
+  "short_name": "BigLinkz",
+  "name": "BigLinkz Influencer Platform",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": []
 }
